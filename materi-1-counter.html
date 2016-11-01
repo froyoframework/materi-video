@@ -5,6 +5,7 @@
 
 <body>
   <div id="penghitung">0</div>
+  <button id="tombolReset" onclick="resetWaktu()"> Reset </button>
   <script>
     "use strict";
 
@@ -14,6 +15,10 @@
     function hitungWaktu() {
       angka++;
       document.getElementById('penghitung').innerHTML = angka;
+    }
+
+    function resetWaktu() {
+      angka = 0;
     }
   </script>
 </body>

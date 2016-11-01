@@ -30,12 +30,17 @@ Apabila kita ingin agar angka tersebut berganti setiap detik, sehingga bisa menj
   <!-- Script JS untuk membuat counter -->
   <script>
     "use strict";
+
     let angka = 0;
     let intervalWaktu = window.setInterval(hitungWaktu, 1000);
 
     function hitungWaktu() {
       angka++;
       document.getElementById('penghitung').innerHTML = angka;
+    }
+
+    function resetWaktu() {
+      angka = 0;
     }
   </script>
 </body>
