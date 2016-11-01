@@ -29,8 +29,9 @@ Apabila kita ingin agar angka tersebut berganti setiap detik, sehingga bisa menj
 
   <!-- Script JS untuk membuat counter -->
   <script>
-    var angka = 0;
-    var intervalWaktu = window.setInterval(hitungWaktu, 1000);
+    "use strict";
+    let angka = 0;
+    let intervalWaktu = window.setInterval(hitungWaktu, 1000);
 
     function hitungWaktu() {
       angka++;
