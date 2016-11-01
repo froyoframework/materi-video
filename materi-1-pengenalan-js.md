@@ -26,6 +26,7 @@ Apabila kita ingin agar angka tersebut berganti setiap detik, sehingga bisa menj
 
 <body>
   <div id="penghitung">0</div>
+  <button id="tombolReset" onclick="resetWaktu()"> Reset </button>
 
   <!-- Script JS untuk membuat counter -->
   <script>
