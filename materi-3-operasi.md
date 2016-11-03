@@ -9,19 +9,34 @@ Operasi matematika, adalah sebuah operasi yang dilakukan untuk mengubah nilai se
 Sebagai contoh, apabila kita memiliki 2 variabel, `a = 12` dan `b = 4` maka, beberapa operasi metematika dasar yang bisa dilakukan adalah:
 
 - Penambahan
-`a + b`
+
+```
+a + b;
+```
 
 - Pengurangan
-`a - b`
+
+```
+a - b;
+```
 
 - Perkalian
-`a * b`
+
+```
+a * b;
+```
 
 - Pembagian
-`a / b`
+
+```
+a / b;
+```
 
 - Modulo (sisa pembagian)
-`a % b // hasilnya 0`
+
+```
+a % b; // hasilnya 0
+```
 
 Tentu saja hasil dari operasi ini bisa langsung diberikan ke variabel yang akan menampung nilainya. Sebagai contoh:
 
