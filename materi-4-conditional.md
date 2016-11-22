@@ -89,9 +89,12 @@ switch (posisi) {
 console.log(posisi + " dibayar sebesar " + gaji);
 ```
 
-Perlu dicatat bahwa kondisi yang diperiksa haruslah berupa variabel dan bukan operasi. Dengan kata lain,
-`switch (x)` bisa dilakukan, namun `switch (x+y)` tidak bisa dijalankan.
+Perbedaan utama antara `switch` dan `if ... else` adalah pada nilai yang dicek kondisinya. `if ... else` memeriksa kebenaran dari sebuah pernyataan (contoh: `x > y`) sementara `switch` memeriksa nilai dari sebuah variabel.
 
 ## Pro Tips
 
 Sebaiknya tidak membuat `if ... else ...` yang berlapis terlalu dalam, karena akan membuat alur program menjadi sulit dibaca.
+
+## Latihan
+1. Buatlah sebuah script yang memeriksa apakah sebuah bilangan genap atau tidak
+2. Buatlah sebuah script yang menampilkan nama Ibu Kota Propinsi di Pulau Sumatera, sesuai dengan variabel yang diterimanya
