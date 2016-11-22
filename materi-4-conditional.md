@@ -66,6 +66,32 @@ if(username === 'asepbagja') {
 }
 ```
 
+Apabila program yang dibuat memiliki banyak sekali kemungkinan keluaran, maka kita bisa juga menggunakan bentuk pernyataan kondisional lain, yakni `switch`. Pernyataan ini mirip dengan membuat pernyataan `if ... else if` dengan banyak sekali kemungkinan keluaran.
+
+Contoh penulisan pernyataan ini adalah sebagai berikut:
+
+```javascript
+let posisi = 'manajer';
+let gaji;
+
+switch (posisi) {
+  case 'manajer' :
+    gaji = 20000000;
+    break;
+  case 'lead' :
+    gaji = 10000000;
+    break;
+  case 'junior' :
+    gaji = 5000000;
+    break;
+}
+
+console.log(posisi + " dibayar sebesar " + gaji);
+```
+
+Perlu dicatat bahwa kondisi yang diperiksa haruslah berupa variabel dan bukan operasi. Dengan kata lain,
+`switch (x)` bisa dilakukan, namun `switch (x+y)` tidak bisa dijalankan.
+
 ## Pro Tips
 
 Sebaiknya tidak membuat `if ... else ...` yang berlapis terlalu dalam, karena akan membuat alur program menjadi sulit dibaca.
