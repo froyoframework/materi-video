@@ -5,7 +5,7 @@ Array adalah sebuah tipe data yang memungkinkan programmer untuk mengumpulkan be
 Contoh berikut akan membuat array berukuran 10 (memiliki 10 nilai)
 
 ```javascript
-let himp = [10];
+let himp = new Array (10);
 himp = [10, 8, 9, 4, 5, 6, 7, 10, 23, 9];
 ```
 
