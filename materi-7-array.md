@@ -1,6 +1,6 @@
 # Array
 
-Array adalah sebuah tipe data yang memungkinkan programmer untuk mengumpulkan beberapa data dengan tipe data yang sama. Atau dengan kata lain, Array bisa kita anggap sebagai himpunan. Berbeda dengan variabel yang hanya memiliki 1 nilai saja, array memiliki beberapa nilai yang ditampung oleh 1 variabel. Semua anggota dalam array, dikenal dengan nama elemen array.
+Array adalah sebuah tipe data yang memungkinkan programmer untuk mengumpulkan beberapa data dengan tipe data yang sama maupun berbeda. Dengan kata lain, Array bisa kita anggap sebagai himpunan. Berbeda dengan variabel yang hanya memiliki 1 nilai saja, array memiliki beberapa nilai yang ditampung oleh 1 variabel. Semua anggota dalam array, dikenal dengan nama elemen array.
 
 Contoh berikut akan membuat array berukuran 10 (memiliki 10 nilai)
 
@@ -16,11 +16,19 @@ Sebagai alternatif, kita bisa juga membuat array tanpa menentukan ukurannya di a
 let himp = [10, 8, 9, 4, 5, 6, 7, 10, 23, 9];
 ```
 
-Tentu saja, kita pun bisa membuat sebuah array berisi string. Peraturan dasarnya hanya semua elemen dalam array harus memiliki tipe data yang sama.
+Tentu saja, kita pun bisa membuat sebuah array berisi string.
 
 ```javascript
 let makanan = ["nasi goreng", "mi rebus", "bakso"];
 ```
+
+Dalam JavaScript, sebuah array bisa memiliki tipe data yang sama ataupun berbeda. Kode berikut ini valid.
+
+```javascript
+let kumpulanData = ["kerbau", 14, 15.90];
+```
+
+Namun, perlu diwaspadai, penggunaan array seperti ini rentan mengundang kesalahan saat operasi menggunakan perulangan, sehingga sebaiknya praktek ini dihindari.
 
 ## Mengakses Elemen Array
 
